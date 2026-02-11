@@ -10,3 +10,10 @@ count = len(data)
 average = total / count
 minimum = min(data)
 maximum = max(data)
+
+print("\n--- Summary ---")
+print("Count:", count)
+print("Sum:", total)
+print("Average:", average)
+print("Minimum:", minimum)
+print("Maximum:", maximum)
