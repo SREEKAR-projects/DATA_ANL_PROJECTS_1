@@ -22,6 +22,9 @@ def student_stat():
     print("Overall Performance:", performance)
 
 student_stat()
+if total_students == 0:
+    print("No marks provided")
+    return
 
 
 
