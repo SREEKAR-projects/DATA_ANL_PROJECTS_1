@@ -14,6 +14,14 @@ def student_stat():
         performance = "Good"
     else:
         performance = "Needs Improvement"
+    print("\n--- Student Performance Summary ---")
+    print("Total Students:", total_students)
+    print("Average Marks:", round(average_marks, 2))
+    print("Highest Mark:", highest_mark)
+    print("Lowest Mark:", lowest_mark)
+    print("Overall Performance:", performance)
+
+student_stat()
 
 
 
