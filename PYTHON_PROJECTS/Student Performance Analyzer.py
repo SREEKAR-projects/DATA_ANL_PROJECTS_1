@@ -8,6 +8,12 @@ def student_stat():
     average_marks = total_marks / total_students
     highest_mark = max(marks)
     lowest_mark = min(marks)
+    if average_marks >= 75:
+        performance = "Excellent"
+    elif average_marks >= 50:
+        performance = "Good"
+    else:
+        performance = "Needs Improvement"
 
 
 
