@@ -2,6 +2,10 @@ print("=== Data Stats Calculator ===")
 
 numbers = input("Enter numbers separated by commas: ")
 
+if not numbers.strip():
+    print("No data provided")
+    exit()
+
 data = numbers.split(",")
 data = [int(n) for n in data]
 
