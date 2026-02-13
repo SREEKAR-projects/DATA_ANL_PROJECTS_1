@@ -12,3 +12,5 @@ count_days = len(sales)
 average_sales = total_sales / count_days
 highest_sale = max(sales)
 lowest_sale = min(sales)
+above_avg = len([s for s in sales if s > average_sales])
+below_avg = len([s for s in sales if s < average_sales])
