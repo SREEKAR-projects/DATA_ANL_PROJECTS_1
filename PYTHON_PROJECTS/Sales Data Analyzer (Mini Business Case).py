@@ -7,3 +7,8 @@ if not sales_input.strip():
 
 sales = sales_input.split(",")
 sales = [float(s) for s in sales]
+total_sales = sum(sales)
+count_days = len(sales)
+average_sales = total_sales / count_days
+highest_sale = max(sales)
+lowest_sale = min(sales)
