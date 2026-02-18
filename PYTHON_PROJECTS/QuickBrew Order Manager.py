@@ -9,3 +9,7 @@ MENU = {
 }
 
 print("QuickBrew System Initialized.")
+def show_menu():
+    print("\n--- QuickBrew Menu ---")
+    for drink, price in MENU.items():
+        print(f"{drink}: ${price:.2f}")
