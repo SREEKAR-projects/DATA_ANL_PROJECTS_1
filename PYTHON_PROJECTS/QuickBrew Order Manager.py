@@ -43,6 +43,17 @@ def complete_pickup(order_number):
     except IndexError:
         print("Order not found.")
 
+def run_cafe():
+    while True:
+        print("\n1. Menu | 2. New Order | 3. View Queue | 4. Serve | 5. Pickup | 6. Close Cafe")
+        choice = input("Action: ")
+        
+        if choice == '1': show_menu()
+        elif choice == '2': 
+            take_order(input("Name: "), input("Drink: "))
+        elif choice == '3': view_queue()
+        elif choice == '6': break
+
 
 
 
