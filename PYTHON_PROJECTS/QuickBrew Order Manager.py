@@ -53,6 +53,11 @@ def run_cafe():
             take_order(input("Name: "), input("Drink: "))
         elif choice == '3': view_queue()
         elif choice == '6': break
+# Entry point for the application
+if __name__ == "__main__":
+    print("Welcome to QuickBrew!")
+    run_cafe()
+    print("Cafe closed. Totals tallied.")
 
 
 
