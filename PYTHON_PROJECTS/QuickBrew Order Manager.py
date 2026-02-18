@@ -28,3 +28,16 @@ def view_queue():
     print("\n--- Current Orders ---")
     for index, order in enumerate(order_queue, 1):
         print(f"{index}. {order['customer']} - {order['drink']} [{order['status']}]")
+def serve_order(order_number):
+    try:
+        index = order_number - 1
+        order_queue[index]["status"] = "READY ☕"
+        print(f"Order for {order_queue[index]['customer']} is ready to serve!")
+    except IndexError:
+        print("Invalid order number.")
+
+
+
+
+
+
