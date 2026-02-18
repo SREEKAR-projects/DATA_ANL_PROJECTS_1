@@ -36,6 +36,13 @@ def serve_order(order_number):
     except IndexError:
         print("Invalid order number.")
 
+def complete_pickup(order_number):
+    try:
+        removed = order_queue.pop(order_number - 1)
+        print(f"Served {removed['customer']}. Have a nice day!")
+    except IndexError:
+        print("Order not found.")
+
 
 
 
