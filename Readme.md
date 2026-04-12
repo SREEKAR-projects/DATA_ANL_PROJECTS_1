@@ -1,14 +1,3 @@
-SQL 30-Day Challenge — Health Insurance Analytics
-Structured SQL study focused on health insurance fraud detection and claims analytics.
-Built around a self-designed textbook using the Israeli problem-first learning model.
-Every problem is domain-specific — no generic retail or Titanic datasets.
-What This Is
-A 30-day daily SQL practice log. 2 hours per day. Pure MySQL.
-Domain: Health insurance — claims data, fraud detection, loss ratio, TPA operations.
-Tool: MySQL Workbench
-Schema: Health insurance claims (members, policies, claims, providers)
-This is the practice repo. The capstone project repo is here:
-→ health-insurance-fraud-detection
 
 Schema
 Chapters 1–3 use a flat denormalised table — claims_flat — that mirrors
