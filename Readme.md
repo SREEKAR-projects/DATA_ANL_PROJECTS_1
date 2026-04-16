@@ -24,3 +24,9 @@ The total error of a model is essentially the sum of its Bias squared, its Varia
 Use a more complex algorithm (e.g., moving from Linear Regression to a Deep Neural Network).
 
 Decrease regularization strength.
+
+𝐓𝐨 𝐟𝐢𝐱 𝐇𝐢𝐠𝐡 𝐕𝐚𝐫𝐢𝐚𝐧𝐜𝐞: * Add more training data to drown out the noise.
+Use 𝐑𝐞𝐠𝐮𝐥𝐚𝐫𝐢𝐳𝐚𝐭𝐢𝐨𝐧 (like L1 or L2) to penalize overly complex weights.
+Use 𝐄𝐧𝐬𝐞𝐦𝐛𝐥𝐞 𝐌𝐞𝐭𝐡𝐨𝐝𝐬 like Bagging (Random Forests) which are designed to reduce variance.
+
+🔥 𝐓𝐇𝐄 𝐁𝐎𝐓𝐓𝐎𝐌 𝐋𝐈𝐍𝐄: You can't eliminate both bias and variance completely. The "Goldilocks" zone is where the model is complex enough to capture the signal but simple enough to ignore the noise.
