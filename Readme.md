@@ -19,7 +19,7 @@ The total error of a model is essentially the sum of its Bias squared, its Varia
 
 𝐃𝐞𝐜𝐫𝐞𝐚𝐬𝐢𝐧𝐠 𝐂𝐨𝐦𝐩𝐥𝐞𝐱𝐢𝐭𝐲: As you simplify the model, you decrease Variance but increase the risk of High Bias.
 
-𝟒. 𝐇𝐎𝐖 𝐓𝐎 𝐅𝐈𝐗 𝐈𝐓
+𝟒. 𝐇𝐎𝐖 𝐓𝐎 𝐅𝐈𝐗 𝐈𝐓..
 𝐓𝐨 𝐟𝐢𝐱 𝐇𝐢𝐠𝐡 𝐁𝐢𝐚𝐬: * Add more features or better feature engineering.
 Use a more complex algorithm (e.g., moving from Linear Regression to a Deep Neural Network).
 
